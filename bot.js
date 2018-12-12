@@ -3,11 +3,7 @@ const client = new Discord.Client();
 const developers = ['462503125048360960'];
 
 
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame(`I'm alone and I like it .`,'https://www.twitch.tv/MeeRcY')
-  client.user.setStatus("idle")
-});
+
 
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
