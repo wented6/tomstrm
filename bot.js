@@ -1,6 +1,4 @@
 const Discord = require('discord.js'),
-bot = new Discord.Client({sisableEveryone: true})
-console.log("Kiiira,");
 const client = new Discord.Client();
 
 
@@ -35,7 +33,6 @@ client.on('message', message => {
   if (message.content.startsWith(adminprefix + 'av')) {
   client.user.setAvatar(argresult);
     message.channel.send(avatar ... :** `);
-  }
  });
 
 
